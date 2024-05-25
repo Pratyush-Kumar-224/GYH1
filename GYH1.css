@@ -1,0 +1,96 @@
+#logos {
+    color: goldenrod;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #09203f;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .contact-info span {
+    margin-right: 10px;
+}
+
+.top-bar .social-register a {
+    margin-left: 10px;
+    color: white;
+}
+
+.top-bar .social-register a i {
+    margin-left: 5px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.logo .highlight {
+    color: #1a73e8;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+    background-color: rgba(211, 211, 211, 0.500);
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.500);
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-bar button i {
+    color: blue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+nav .sign-in {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav .dropdown {
+    position: relative;
+}
